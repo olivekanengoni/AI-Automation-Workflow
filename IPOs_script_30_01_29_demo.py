@@ -5,11 +5,11 @@ from email.message import EmailMessage
 
 # =========================
 # CONFIG
-# =========================
-FINNHUB_API_KEY = "d604kohr01qihi8of8tgd604kohr01qihi8of8u0"
+# Keys + Passwords hidden
+FINNHUB_API_KEY = "xxxxxxxxxxxxxxxxxxxxxx"
 
 EMAIL_ADDRESS = "okanengoni968@gmail.com"
-EMAIL_APP_PASSWORD = "nvdp mint nwqo dwoy"
+EMAIL_APP_PASSWORD = "xxxx xxxx xxxx xxxx"
 
 # =========================
 # FIXED DATE FOR DEMO
@@ -120,3 +120,4 @@ if qualified:
     print("Email sent:", [ipo["ticker"] for ipo in qualified])
 else:
     print("No IPOs meet the criteria.")
+
